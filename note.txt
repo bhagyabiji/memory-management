@@ -11,5 +11,9 @@ FUNCTIONS
 
 Techniques
 ----------
-1. Contiguous memory management 
-2. Non - Contiguous memory management
+1. Contiguous memory management :- entire process should be stored on consecutive memory locations
+
+2. Non - Contiguous memory management :- Entire process divided into partitions and each partition can be stored on any memory locations 
+        - has 2 types :- 
+                1. Paging 
+                2. Segmentation
