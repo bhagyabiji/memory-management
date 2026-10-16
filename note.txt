@@ -1,0 +1,15 @@
+Operating System - Memory Management
+------------------------------------
+- Manages RAM in main memory 
+- main memory has os and processes,if any processs came the memory management manages with the remaining space.
+
+FUNCTIONS
+---------
+1. Memory Allocation : if any process arrives it allocates the memory address with positions from where to where
+2. Memory deallocation : memory will remove the terminated processes
+3. Memory protection : one process cannot access the memory address of another process
+
+Techniques
+----------
+1. Contiguous memory management 
+2. Non - Contiguous memory management
