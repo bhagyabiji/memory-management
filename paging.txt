@@ -1,0 +1,19 @@
+Paging
+------
+ Paging divides memory into small fixed-size blocks called pages. When the computer runs out of RAM, pages that aren't currently in use are moved to the hard drive, into an area called a swap file. Here,
+
+    - The swap file acts as an extension of RAM.
+    - When a page is needed again, it is swapped back into RAM, a process known as page swapping.
+    - This ensures that the operating system (OS) and applications have enough memory to run.
+
+Page Fault Service Time: The time taken to service the page fault is called page fault service time. The page fault service time includes the time taken to perform all the above steps. 
+
+    Let Main memory access time is: m
+    Page fault service time is: s
+    Page fault rate is : p
+    Then, Effective memory access time = (p*s) + (1-p)*m
+
+Page and Frame: Page is a fixed size block of data in virtual memory and a frame is a fixed size block of physical memory in RAM where these pages are loaded.
+
+   - Think of a page as a piece of a puzzle (virtual memory) While, a frame as the spot where it fits on the board (physical memory).
+   - When a program runs its pages are mapped to available frames so the program can run even if the program size is larger than physical memory.
