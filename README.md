@@ -10,7 +10,14 @@ Functions
 
 Techniques
 ----------
-1. contiguous memory management
-2. non contiguous memory management
+1. Contiguous Memory Management
+2. Non Contiguous Memory Management
 
-   - in non contiguous memory management
+   Virtual memory is managed by the Memory Management Unit (MMU), which is often built into the CPU. The CPU generates virtual addresses that the MMU translates into physical addresses. There are two main types of virtual memory:
+
+   - Paging
+   - Segmentation
+
+   - In non contiguous memory management we have,
+        1. Paging
+        2. Segmentation
