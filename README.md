@@ -21,3 +21,5 @@ Techniques
    - In non contiguous memory management we have,
         1. Paging
         2. Segmentation
+Paging
+   - divided partitions are of equal size
