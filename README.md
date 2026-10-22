@@ -25,3 +25,9 @@ Techniques
 Paging
 -------
    - divided partitions are of equal size
+   - the partitions are known as pages
+
+
+Segmentation
+------------
+- the divided partitions are of different or variable size
