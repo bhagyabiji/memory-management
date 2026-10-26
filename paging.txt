@@ -26,3 +26,8 @@ Optimal Page replacement
 Least Recently Used (LRU)
 Most Recently Used (MRU)
 
+
+FIFO - replace the page that comes first in main memory
+Optimal - replace the page which will not be used for longest period of time, has minimum possible page faults
+
+
