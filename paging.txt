@@ -17,3 +17,12 @@ Page and Frame: Page is a fixed size block of data in virtual memory and a frame
 
    - Think of a page as a piece of a puzzle (virtual memory) While, a frame as the spot where it fits on the board (physical memory).
    - When a program runs its pages are mapped to available frames so the program can run even if the program size is larger than physical memory.
+
+
+Page Replacement Algorithms
+---------------------------
+First In First Out (FIFO)
+Optimal Page replacement
+Least Recently Used (LRU)
+Most Recently Used (MRU)
+
